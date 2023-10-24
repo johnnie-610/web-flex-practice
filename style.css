@@ -1,0 +1,230 @@
+/* Define the colours and fonts as variables */
+:root {
+  --dark-blue: #1f2937;
+  --light-blue: #e5e7eb;
+  --bright-blue: #3882f6;
+  --white: #f9faf8;
+  --grey: #e5e7eb;
+}
+
+/* Set the font family for the whole document */
+* {
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Style the logo text */
+.logo {
+  color: var(--white);
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+/* Style the navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  color: var(--light-blue);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Style the hero section */
+.hero {
+  background-color: var(--dark-blue);
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hero img {
+  width: 200px;
+}
+
+.hero-text {
+  text-align: left;
+}
+
+/* Style the hero main text */
+.hero h1 {
+  color: var(--white);
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+/* Style the hero secondary text */
+.hero p {
+  color: var(--light-blue);
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Style the button */
+.button {
+  background-color: var(--bright-blue);
+  color: var(--white);
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Style the information section */
+.info {
+    background-color : var(--white) ;
+    padding :40 px ;
+    display : flex ;
+    justify-content : space-around ;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.info-photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.info-photo img {
+    height: 200px;
+    width: 150px;
+}
+
+.info-text {
+    background-color: yellow;
+    word-wrap: break-word;
+    width: 150px;
+}
+
+
+/* Style the information header text */
+.info h2 {
+    color : var(--dark-blue) ;
+    font-size :36 px ;
+    font-weight :800 ;
+    align-self : center ;
+    text-align: center;
+}
+
+/* Style the information paragraph text */
+.info p {
+    color : var(--dark-blue) ;
+    font-size :18 px ;
+}
+
+/* Style the quote section */
+.quote {
+    background-color : var(--grey) ;
+    padding :40 px ;
+    display : flex ;
+    flex-direction: column;
+    align-items : center ;
+    height: 30vh;
+    margin: 40px;
+}
+
+/* Style the quote text */
+.quote h2 {
+    color : var(--dark-blue) ;
+    font-size :36 px ;
+    font-weight : lighter ;
+    font-style : italic ;
+    text-align : center ;
+    margin: 60px 60px 0 60px;
+    
+}
+
+.quote p {
+    color: var(--dark-blue);
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    align-self: flex-end;     
+}
+
+
+/* Style call for action */
+.action {
+    background-color : var(--white) ;
+    padding :40 px ;
+    display : flex ;
+    justify-content : space-evenly ;
+    flex-direction: row;
+    align-items : center ;
+    height: 15vh;
+    margin: 80px;
+    background: var(--bright-blue);
+
+}
+
+.action h2 {
+    color : var(--white);
+    font-size :36 px ;
+    font-weight :800 ;
+    align-self : center ;
+    text-align: left;
+    margin: 0;
+}
+
+.action p {
+    color : var(--white);
+    font-size :18 px ;
+    font-weight : lighter ;
+    font-style : italic ;
+    text-align : left ;
+    margin: 0;
+}
+
+
+.action button {
+    background-color: var(--bright-blue);
+    color: var(--white);
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0;
+    margin-left: auto;
+}
+
+
+
+
+/* Style the footer */
+.footer {
+    background-color : var(--dark-blue) ;
+    padding :20 px ;
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    height: 10vh;
+}
+
+/* Style the footer text */
+.footer p {
+    color : var(--light-blue) ;
+    font-size :18 px ;
+    margin :0 ;
+}

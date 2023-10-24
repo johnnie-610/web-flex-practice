@@ -1,1 +1,1 @@
-# web-flex-pracitice
+# web-flex-practice
